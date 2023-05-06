@@ -1,0 +1,54 @@
+body{
+    background: lightskyblue;
+
+}
+.signup{
+    width: 500px;
+    height: 600px;
+    background:#1a1717 ;
+    color: white;
+    text-align: center;
+    margin: 100px auto ; /* this moves the content to the middle of the screen***/
+    border-radius:50px ;
+    overflow: hidden;
+
+}
+h2{
+    text-align: center;
+    margin-top: 80px ;
+}
+label{
+    font-size: 20px;
+    display: block;
+    margin: 0px 30px;
+    float: left;
+}
+input{
+    width: 80%;
+    margin: 10px 0 30px 10px;
+}
+input[type="text"],input[type="Password"]{
+    border: none;
+    background: transparent;
+    height: 40px;
+    border-bottom:1px solid white;
+    border-bottom-style: ridge;
+    outline: none;font-size: 18px;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    background:#fb2525;
+    height: 30px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    outline: none;
+
+}
+input[type="submit"]:hover{
+    background: #6e4444;
+}
+a{
+    color: white;
+}
